@@ -27,6 +27,6 @@ public class birdScript : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         logic.GameOver();
-        birdIsAlive = true;
-}
+        birdIsAlive = false;
+    }
 }
